@@ -1,0 +1,61 @@
+/*CSS Document*/
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    border-bottom: 2px solid #000000;
+}
+
+#svgRoot
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    border-bottom: 2px solid #000000;
+}
+
+.modes {
+    width: 100%;
+    margin-top:1em;
+    text-align: center;
+}
+
+.spacing {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.theme-color {
+    background-color: #ee6e73;
+}
+
+.theme-color:hover, .theme-color:focus {
+    background-color: #F18B8F;
+}
+
+.gameName {
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: #f3a2a5;
+    transition: none;
+    font-size: 20px;
+}
+
+.gameName:hover {
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f3a2a5;
+    transition: none;
+    cursor: default;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
